@@ -25,7 +25,7 @@ A bird murmuration simulator built with modern web technologies. Watch flocks fo
 
 ## 🚀 Demo
 
-👉 https://djdh98.github.io/MrHolmesMurmuration/
+👉 https://djdh98.github.io/Bird-Murmuration-Boids-/
 
 ---
 
