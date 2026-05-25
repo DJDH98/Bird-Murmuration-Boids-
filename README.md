@@ -1,70 +1,20 @@
-# 🐦 Mr Holmes Murmuration
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-A bird murmuration simulator built with modern web technologies. Watch flocks form, and flow, — then take control by naming your birds or unleashing chaos with a royale mode.
+# Run and deploy your AI Studio app
 
----
+This contains everything you need to run your app locally.
 
-## 🌟 Features
+View your app in AI Studio: https://ai.studio/apps/afc58647-851b-4e03-9242-125d43a72c35
 
-- 🐦 **Real-time murmuration simulation**  
-  Watch flocking behaviour emerge from simple rules.
+## Run Locally
 
-- ✏️ **Name your birds**  
-  Give your flock personalities by assigning custom names.
+**Prerequisites:**  Node.js
 
-- ⚔️ **Royale mode**  
-  Turn peaceful flocking into a chaotic survival contest.
 
-- 🎨 **Stylised UI**  
-  Built with Tailwind CSS for a modern, responsive interface.
-
-- ⚡ **Fast & lightweight**  
-  Powered by Vite for rapid development and smooth performance.
-
----
-
-## 🚀 Demo
-
-👉 https://djdh98.github.io/MrHolmesMurmuration/
-
----
-
-## 🛠️ Tech Stack
-
-- **React** – Component-based UI
-- **TypeScript** – Type-safe JavaScript
-- **Vite** – Lightning-fast build tool
-- **Tailwind CSS** – Utility-first styling
-
----
-
-## 🧠 How It Works
-
-The simulation is based on emergent behaviour:
-
-Each bird follows simple rules:
-- Avoid crowding neighbours
-- Match velocity with nearby birds
-- Move toward the center of the flock
-
-When combined, these rules create realistic flocking behaviour (murmuration).
-
----
-
-## 🕹️ Controls
-
-- Add / name birds
-- Start / stop simulation
-- Activate **Royale Mode** for chaotic interactions
-
-*(Exact controls may depend on UI version)*
-
----
-
-## 💻 Running Locally
-
-Clone the repo:
-
-```bash
-git clone https://github.com/DJDH98/MrHolmesMurmuration.git
-cd MrHolmesMurmuration
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
