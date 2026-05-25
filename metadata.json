@@ -1,0 +1,6 @@
+{
+  "name": "Mr Holmes Bird Murmuration",
+  "description": "An elegant, interactive simulation of bird murmuration against a Victorian misty sky.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
