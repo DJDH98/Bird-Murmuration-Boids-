@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Bird Murmuration icon</title>
+  <desc id="desc">A flock of small birds forming a murmuration over a misty sky.</desc>
+  <defs>
+    <radialGradient id="sky" cx="42%" cy="38%" r="75%">
+      <stop stop-color="#d7dde6"/>
+      <stop offset="0.48" stop-color="#747c88"/>
+      <stop offset="1" stop-color="#1d2229"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="108" fill="url(#sky)"/>
+  <path d="M118 332c74-22 174-28 276 28" stroke="#0f1318" stroke-width="15" stroke-linecap="round" opacity="0.22"/>
+  <g fill="#050607" opacity="0.82">
+    <path d="M138 178l30 11-30 11 8-11-8-11Z"/>
+    <path d="M187 154l28 10-28 11 8-11-8-10Z"/>
+    <path d="M232 186l31 10-31 12 9-12-9-10Z"/>
+    <path d="M286 164l30 11-30 11 8-11-8-11Z"/>
+    <path d="M337 204l30 11-30 11 8-11-8-11Z"/>
+    <path d="M176 236l26 10-26 10 7-10-7-10Z"/>
+    <path d="M224 258l30 11-30 11 8-11-8-11Z"/>
+    <path d="M282 236l28 10-28 10 7-10-7-10Z"/>
+    <path d="M344 274l31 12-31 11 9-11-9-12Z"/>
+    <path d="M126 280l28 10-28 10 8-10-8-10Z"/>
+  </g>
+  <g fill="#f8fafc" opacity="0.96">
+    <path d="M239 342h34l-17 44-17-44Z"/>
+    <path d="M224 336h64l-32-26-32 26Z"/>
+  </g>
+  <text x="256" y="448" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="900" fill="#f8fafc">BOIDS</text>
+</svg>
